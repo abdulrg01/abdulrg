@@ -51,7 +51,6 @@ export default function Hero() {
         project={false}
         contact={false}
         skills={false}
-        testimonials={false}
         name={true}
       />
       <div className="relative grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-8 lg:pt-14 lg:grid-cols-12">

@@ -44,7 +44,6 @@ export default function About() {
         project={true}
         contact={true}
         skills={true}
-        testimonials={true}
         name={false}
       />
       <div className="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-5 xl:gap-0 lg:pt-14 lg:grid-cols-12 relative">
@@ -76,7 +75,7 @@ export default function About() {
             </p>
           </blockquote>
           <div className="flex items-center justify-between">
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center max-sm:text-center">
               <h2 className="mb-2 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 3+
               </h2>
@@ -85,7 +84,7 @@ export default function About() {
               </h3>
             </div>
             <div className="w-1 h-24 bg-gray-50 dark:bg-gray-800" />
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center max-sm:text-center">
               <h2 className="mb-2 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 6+
               </h2>
@@ -94,7 +93,7 @@ export default function About() {
               </h3>
             </div>
             <div className="w-1 h-24 bg-gray-50 dark:bg-gray-800" />
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center max-sm:text-center">
               <h2 className="mb-2 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 15+
               </h2>

@@ -1,5 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
+import { testimonials } from "../data";
+import { InfiniteMovingCards } from "./ui/InfiniteMovingCards.tsx";
 import { Spotlight } from "./ui/Spotlight";
 import { CgWebsite } from "react-icons/cg";
 import { PiRocketLaunch } from "react-icons/pi";
@@ -48,11 +50,10 @@ const Experience = () => {
         project={true}
         contact={true}
         skills={true}
-        testimonials={true}
         name={true}
       />
       <div className="max-w-screen-lg px-4 py-10 mt-10 mx-auto w-full relative">
-        <h1 className="heading">
+        <h1 className="heading mb-5">
           My <span className="text-purple">work experience</span>
         </h1>
         <div className="mb-10 lg:mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
@@ -100,6 +101,24 @@ const Experience = () => {
             >
               Instantly deploy your Next.js site to a shareable URL with Vercel.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* testimonial */}
+      <div className="py-20">
+        <h1 className="heading relative mb-5">
+          Kind words from
+          <span className="text-purple"> satisfied clients</span>
+        </h1>
+
+        <div className="flex flex-col items-center max-lg:mt-10">
+          <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+            <InfiniteMovingCards
+              items={testimonials}
+              direction="right"
+              speed="slow"
+            />
           </div>
         </div>
       </div>

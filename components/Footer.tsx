@@ -4,6 +4,12 @@ import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "../data";
 import Nav from "./Nav";
 import { Spotlight } from "./ui/Spotlight";
+import { GrTechnology } from "react-icons/gr";
+import { MdApps, MdEmail } from "react-icons/md";
+import { PiRocketLaunch } from "react-icons/pi";
+import { CgWebsite } from "react-icons/cg";
+import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
+import { LiaLinkedin } from "react-icons/lia";
 
 const Footer = () => {
   return (
@@ -46,11 +52,10 @@ const Footer = () => {
         about={true}
         project={true}
         contact={true}
-        testimonials={false}
         name={true}
         skills={true}
       />
-      <div className="w-full pb-10 pt-7 max-w-screen-lg mx-auto px-4 py-10 mb-4 md:mb-4 relative" id="contact">
+      <div className="w-full pb-10 pt-20 max-w-screen-lg mx-auto px-4 py-10 mb-4 md:mb-4 relative">
         {/* background grid */}
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw]">
@@ -61,7 +66,104 @@ const Footer = () => {
             Reach out to me today and let&apos;s discuss how I can help you
             achieve your goals.
           </p>
-          <a href="mailto:contact@jsmastery.pro">
+
+          <div className="w-full">
+            <div className="mb-10 lg:mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+              <a
+                href="abdulrg01@gmail.com"
+                target="_blank"
+                className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              >
+                <MdEmail className="w-5 h-5" />
+                <h2
+                  className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+                >
+                  Email
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                  abdulrg01@gmail.com
+                </p>
+                <p
+                  className={`m-0 max-w-[30ch] mt-2 text-start text-sm opacity-50`}
+                >
+                  Write me{" "}
+                  <span className="inline-block transition-transform hover:translate-x-1 motion-reduce:transform-none">
+                    -&gt;
+                  </span>
+                </p>
+              </a>
+
+              <a
+                className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                href="https://www.linkedin.com/in/abdulrahman-abubakar-b464a72a1"
+                target="_blank"
+              >
+                <LiaLinkedin className="w-5 h-5" />
+                <h2
+                  className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+                >
+                  Linkedin
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                  Linkedin profile
+                </p>
+                <p
+                  className={`m-0 max-w-[30ch] mt-2 text-start text-sm opacity-50`}
+                >
+                  Write me{" "}
+                  <span className="inline-block transition-transform hover:translate-x-1 motion-reduce:transform-none">
+                    -&gt;
+                  </span>
+                </p>
+              </a>
+
+              <a
+                href="https://twitter.com/Abdulra01025525"
+                target="_blank"
+                className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              >
+                <BsTwitterX className="w-5 h-5" />
+                <h2
+                  className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+                >
+                  Twitter
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                  Twitter formerly name X
+                </p>
+                <p
+                  className={`m-0 max-w-[30ch] mt-2 text-start text-sm opacity-50`}
+                >
+                  Write me{" "}
+                  <span className="inline-block transition-transform hover:translate-x-1 motion-reduce:transform-none">
+                    -&gt;
+                  </span>
+                </p>
+              </a>
+
+              <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                <BsWhatsapp className="w-5 h-5" />
+                <h2
+                  className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+                >
+                  Whatsapp
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                  +2348063610782
+                </p>
+                <p
+                  className={`m-0 max-w-[30ch] mt-2 text-start text-sm opacity-50`}
+                >
+                  Write me{" "}
+                  <span className="inline-block transition-transform hover:translate-x-1 motion-reduce:transform-none">
+                    -&gt;
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <a href="abdulrg01@gmail.com" target="_blank">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -79,6 +181,7 @@ const Footer = () => {
               <a
                 href={info.link}
                 key={info.id}
+                target="_blank"
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
                 <img src={info.img} alt="icons" width={20} height={20} />

@@ -5,7 +5,6 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Nav({
-  testimonials,
   about,
   experience,
   project,
@@ -13,7 +12,6 @@ export default function Nav({
   name,
   skills,
 }: {
-  testimonials: Boolean;
   about: Boolean;
   experience: Boolean;
   project: Boolean;
@@ -95,20 +93,6 @@ export default function Nav({
                     transition={{ duration: 0.1, delay: 0.1 }}
                   >
                     Experience
-                  </motion.li>
-                </Link>
-              )}
-              {testimonials && (
-                <Link
-                  href="/testimonials"
-                  className="flex items-center gap-1 cursor-pointer duration-300 nav-link hover:text-gray-500 font-medium text-sm"
-                >
-                  <motion.li
-                    initial={{ y: -10, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.1, delay: 0.1 }}
-                  >
-                    Testimonials
                   </motion.li>
                 </Link>
               )}
