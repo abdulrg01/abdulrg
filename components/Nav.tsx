@@ -148,7 +148,7 @@ export default function Nav({
                 />
               </svg>
               <ul className="flex flex-col mt-4 font-medium lg:hidden lg:mt-0">
-                {["about", "experience", "project", "contact"].map((item) => (
+                {["about", "experience", "projects", "contact"].map((item) => (
                   <li
                     key={item}
                     className="block py-2 pr-4 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white uppercase"

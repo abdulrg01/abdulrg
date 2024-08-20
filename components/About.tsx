@@ -106,7 +106,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid max-w-screen-lg w-full px-4 mx-auto lg:gap-5 xl:gap-10 lg:grid-cols-12 relative">
+        <div className="grid max-w-screen-lg w-full px-4 mx-auto lg:gap-5 xl:gap-10 lg:grid-cols-12 relative mb-7">
           <div className="mr-auto place-self-center lg:col-span-6 w-full">
             <div>
               <div className="flex items-center w-full justify-between">
