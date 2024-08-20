@@ -46,14 +46,13 @@ export default function Hero() {
         />
       </div>
       <Nav
-        about={false}
+        about={true}
         experience={false}
-        project={false}
-        contact={false}
-        skills={false}
+        project={true}
+        contact={true}
         name={true}
       />
-      <div className="relative grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-8 lg:pt-14 lg:grid-cols-12">
+      <div className="relative min-h-screen place-content-center grid max-w-screen-lg px-4 pt-6 mx-auto lg:gap-8 xl:gap-0 lg:pt-7 lg:grid-cols-12">
         <div className="hidden group mr-auto place-self-center lg:col-span-2 lg:block">
           <motion.div
             initial={{ opacity: 0 }}

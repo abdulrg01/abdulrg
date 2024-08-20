@@ -4,12 +4,10 @@ import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "../data";
 import Nav from "./Nav";
 import { Spotlight } from "./ui/Spotlight";
-import { GrTechnology } from "react-icons/gr";
-import { MdApps, MdEmail } from "react-icons/md";
-import { PiRocketLaunch } from "react-icons/pi";
-import { CgWebsite } from "react-icons/cg";
+import { MdEmail } from "react-icons/md";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import { LiaLinkedin } from "react-icons/lia";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Footer = () => {
   return (
@@ -53,12 +51,10 @@ const Footer = () => {
         project={true}
         contact={true}
         name={true}
-        skills={true}
       />
-      <div className="w-full pb-10 pt-20 max-w-screen-lg mx-auto px-4 py-10 mb-4 md:mb-4 relative">
-        {/* background grid */}
-        <div className="flex flex-col items-center">
-          <h1 className="heading lg:max-w-[45vw]">
+      <div className="grid min-h-screen place-content-center lg:pt-20 max-w-screen-lg mx-auto px-4 mb-10 relative">
+        <div className="flex flex-col items-center mt-10">
+          <h1 className="heading lg:max-w-[50vw]">
             Ready to take <span className="text-purple">your</span> digital
             presence to the next level?
           </h1>
@@ -67,8 +63,8 @@ const Footer = () => {
             achieve your goals.
           </p>
 
-          <div className="w-full">
-            <div className="mb-10 lg:mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+          <div>
+            <div className="mb-10 lg:mt-20 grid w-full lg:mb-0 lg:grid-cols-4 grid-cols-2 lg:text-left">
               <a
                 href="abdulrg01@gmail.com"
                 target="_blank"

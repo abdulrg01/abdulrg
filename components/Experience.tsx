@@ -49,76 +49,80 @@ const Experience = () => {
         about={true}
         project={true}
         contact={true}
-        skills={true}
         name={true}
       />
-      <div className="max-w-screen-lg px-4 py-10 mt-10 mx-auto w-full relative">
-        <h1 className="heading mb-5">
-          My <span className="text-purple">work experience</span>
-        </h1>
-        <div className="mb-10 lg:mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-          <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <CgWebsite className="w-5 h-5" />
-            <h2
-              className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
-            >
-              Frontend Developer
-            </h2>
-            <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
-              Find in-depth information about Next.js features and API.
-            </p>
-          </div>
+      <div className="min-h-screen grid place-content-center">
+        <div className="max-w-screen-lg px-4 py-10 mt-10 mx-auto w-full relative">
+          <h1 className="heading mb-10">
+            My <span className="text-purple">work experience</span>
+          </h1>
+          <div className="mb-10 lg:mt-20 grid place-content-center max-w-screen-lg mx-auto lg:mb-0 lg:grid-cols-4 grid-cols-2 lg:text-left">
+            <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <CgWebsite className="w-5 h-5" />
+              <h2
+                className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+              >
+                Frontend Developer
+              </h2>
+              <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                Find in-depth information about Next.js features and API.
+              </p>
+            </div>
 
-          <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <PiRocketLaunch className="w-5 h-5" />
-            <h2 className={`mb-3 text-2xl font-semibold mt-3`}>Freelancing</h2>
-            <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </div>
+            <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <PiRocketLaunch className="w-5 h-5" />
+              <h2 className={`mb-3 text-2xl font-semibold mt-3`}>
+                Freelancing
+              </h2>
+              <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                Learn about Next.js in an interactive course with&nbsp;quizzes!
+              </p>
+            </div>
 
-          <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <GrTechnology className="w-5 h-5" />
-            <h2
-              className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
-            >
-              Frontend Intern
-            </h2>
-            <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </div>
+            <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <GrTechnology className="w-5 h-5" />
+              <h2
+                className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+              >
+                Frontend Intern
+              </h2>
+              <p className={`m-0 max-w-[30ch] text-start text-sm opacity-50`}>
+                Discover and deploy boilerplate example Next.js&nbsp;projects.
+              </p>
+            </div>
 
-          <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-            <MdApps className="w-5 h-5" />
-            <h2
-              className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
-            >
-              Web Development
-            </h2>
-            <p
-              className={`m-0 max-w-[30ch] text-start text-sm opacity-50 text-balance`}
-            >
-              Instantly deploy your Next.js site to a shareable URL with Vercel.
-            </p>
+            <div className="group flex items-start justify-start flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <MdApps className="w-5 h-5" />
+              <h2
+                className={`mb-3 text-2xl font-semibold mt-3 whitespace-nowrap`}
+              >
+                Web Development
+              </h2>
+              <p
+                className={`m-0 max-w-[30ch] text-start text-sm opacity-50 text-balance`}
+              >
+                Instantly deploy your Next.js site to a shareable URL with
+                Vercel.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* testimonial */}
-      <div className="py-20">
-        <h1 className="heading relative mb-5">
-          Kind words from
-          <span className="text-purple"> satisfied clients</span>
-        </h1>
+        {/* testimonial */}
+        <div className="pt-20 pb-10">
+          <h1 className="heading relative mb-5">
+            Kind words from
+            <span className="text-purple"> satisfied clients</span>
+          </h1>
 
-        <div className="flex flex-col items-center max-lg:mt-10">
-          <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
-            <InfiniteMovingCards
-              items={testimonials}
-              direction="right"
-              speed="slow"
-            />
+          <div className="flex flex-col items-center max-lg:mt-10">
+            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+              <InfiniteMovingCards
+                items={testimonials}
+                direction="right"
+                speed="slow"
+              />
+            </div>
           </div>
         </div>
       </div>

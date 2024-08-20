@@ -102,6 +102,14 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://dashboard-nu-liart-54.vercel.app",
   },
+  {
+    id: 5,
+    title: "Product Card List",
+    des: "An Ecommerce Product Card.",
+    img: "/product.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://product-list-card.vercel.app",
+  },
 ];
 
 export const testimonials = [
