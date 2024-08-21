@@ -122,9 +122,31 @@ export default function About() {
             <div>
               <div className="flex items-center w-full justify-between">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  React
+                  Next.js
                 </h3>
-                <p className="my-4">94%</p>
+                <p className="my-4">90%</p>
+              </div>
+              <div className="h-2 w-full rounded-full bg-gray-700">
+                <div className="bg-[#fff] h-2 w-[80%] rounded-full" />
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center w-full justify-between">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Next.js
+                </h3>
+                <p className="my-4">90%</p>
+              </div>
+              <div className="h-2 w-full rounded-full bg-gray-700">
+                <div className="bg-[#fff] h-2 w-[80%] rounded-full" />
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center w-full justify-between">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Tailwind & Shadcn
+                </h3>
+                <p className="my-4">90%</p>
               </div>
               <div className="h-2 w-full rounded-full bg-gray-700">
                 {" "}
@@ -148,6 +170,28 @@ export default function About() {
               <div className="flex items-center w-full justify-between">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Node JS
+                </h3>
+                <p className="my-4">70%</p>
+              </div>
+              <div className="h-2 w-full rounded-full bg-gray-700">
+                <div className="bg-[#fff] h-2 w-[80%] rounded-full" />
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center w-full justify-between">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Mongodb
+                </h3>
+                <p className="my-4">85%</p>
+              </div>
+              <div className="h-2 w-full rounded-full bg-gray-700">
+                <div className="bg-[#fff] h-2 w-[80%] rounded-full" />
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center w-full justify-between">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Express
                 </h3>
                 <p className="my-4">80%</p>
               </div>
