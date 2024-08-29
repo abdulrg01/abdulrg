@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "SocialSwap",
-    des: "From breaking news and entertainment to sports, politics, and everyday interests, when it happens in the world.",
-    img: "/social.png",
-    iconLists: ["/next.svg", "/tail.svg", "/mongodb.png"],
-    link: "https://social-media-opal-sigma.vercel.app",
+    title: "E-commerce",
+    des: "Shopify® Is an Easy-To-Use Online Store Builder Trusted by Millions of Stores. Explore Various Tools & Services For Your Business. Get an E-Commerce Website. Fully Hosted.",
+    img: "/ecommerce.png",
+    iconLists: ["/next.svg", "/tail.svg", "/mongodb.png", "/ts.png"],
+    link: "https://e-commerce-rho-swart.vercel.app/",
   },
   {
     id: 2,
@@ -96,6 +96,14 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Twitter clone",
+    des: "From breaking news and entertainment to sports, politics, and everyday interests, when it happens in the world.",
+    img: "/social.png",
+    iconLists: ["/next.svg", "/tail.svg", "/mongodb.png"],
+    link: "https://social-media-opal-sigma.vercel.app",
+  },
+  {
+    id: 5,
     title: "Gpower",
     des: "A comprehensive transactions platform that allows users to make a transaction, top up, and pay bills, and offers curated recommendations for the transactions.",
     img: "/gpower.png",
@@ -103,7 +111,7 @@ export const projects = [
     link: "https://dashboard-nu-liart-54.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Product Card List",
     des: "An Ecommerce Product Card.",
     img: "/product.png",

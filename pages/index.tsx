@@ -1,9 +1,3 @@
-import { FloatingNav } from "../components/ui/FloatingNav";
-import RecentProject from "../components/RecentProject";
-import { navItems } from "../data";
-import Experience from "../components/Experience";
-import Process from "../components/Process";
-import Footer from "../components/Footer";
 import Hero from "@/components/Hero";
 
 export default function Home() {
