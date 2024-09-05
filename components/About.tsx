@@ -1,6 +1,6 @@
-import React from "react";
 import Nav from "./Nav";
 import { Spotlight } from "./ui/Spotlight";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -48,15 +48,16 @@ export default function About() {
       <div className="min-h-screen grid place-content-center">
         <div className="relative grid max-w-screen-lg px-4 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:pt-20 mb-14">
           <div className="mr-auto place-self-center lg:col-span-5 border-gray-200 border-b border-r dark:border-gray-700 pr-5 pb-5">
-            <div className="bg-gray-50 dark:bg-[#0E111A] pr-5">
-              <img
+            <div className="bg-gray-50 dark:bg-[#0E111A] pr-5 mb-3">
+              <Image
                 src="/port2.png"
                 alt="profile picture"
-                className="h-[330px] w-[280px]"
+                width={300}
+                height={300}
               />
             </div>
           </div>
-          <div className="mr-auto place-self-center lg:col-span-7">
+          <div className="mr-auto place-self-center lg:col-span-7 mb-3">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               About Me
             </h2>
