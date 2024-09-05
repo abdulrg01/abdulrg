@@ -96,6 +96,14 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Student Attendance",
+    des: "Student Tracking App is a mern stack application to track student attendance, and track student registration and payment using Next.js, clerk, mongodb and much more.",
+    img: "/atten.png",
+    iconLists: ["/next.svg", "/tail.svg", "/mongodb.png", "/node.png"],
+    link: "https://student-attendance-kappa.vercel.app",
+  },
+  {
+    id: 5,
     title: "Twitter clone",
     des: "From breaking news and entertainment to sports, politics, and everyday interests, when it happens in the world.",
     img: "/social.png",
@@ -103,7 +111,7 @@ export const projects = [
     link: "https://social-media-opal-sigma.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gpower",
     des: "A comprehensive transactions platform that allows users to make a transaction, top up, and pay bills, and offers curated recommendations for the transactions.",
     img: "/gpower.png",
@@ -111,7 +119,7 @@ export const projects = [
     link: "https://dashboard-nu-liart-54.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "Product Card List",
     des: "An Ecommerce Product Card.",
     img: "/product.png",

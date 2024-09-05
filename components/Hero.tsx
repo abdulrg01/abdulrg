@@ -54,36 +54,39 @@ export default function Hero() {
       />
       <div className="relative min-h-screen place-content-center grid max-w-screen-lg px-4 pt-6 mx-auto lg:gap-8 xl:gap-0 lg:pt-7 lg:grid-cols-12">
         <div className="hidden group mr-auto place-self-center lg:col-span-2 lg:block">
-          <motion.a
-            href="https://twitter.com/Abdulra01025525"
-            target="_blank"
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
             className="p-2 rounded-full border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-3"
           >
-            <BsTwitterX className="w-5 h-5" />
-          </motion.a>
-          <motion.a
-            href="https://www.linkedin.com/in/abdulrahman-abubakar-b464a72a1"
-            target="_blank"
+            <a href="https://twitter.com/Abdulra01025525" target="_blank">
+              <BsTwitterX className="w-5 h-5" />
+            </a>
+          </motion.div>
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
             className="p-2 rounded-full border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-3"
           >
-            <BsLinkedin className="w-5 h-5" />
-          </motion.a>
-          <motion.a
-            href="abdulrg01@gmail.com"
-            target="_blank"
+            <a
+              href="https://www.linkedin.com/in/abdulrahman-abubakar-b464a72a1"
+              target="_blank"
+            >
+              <BsLinkedin className="w-5 h-5" />
+            </a>
+          </motion.div>
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
             className="p-2 rounded-full border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
-            <BsGithub className="w-5 h-5" />
-          </motion.a>
+            <a href="abdulrg01@gmail.com" target="_blank">
+              <BsGithub className="w-5 h-5" />
+            </a>
+          </motion.div>
         </div>
         <div className="mr-auto place-self-center lg:col-span-6">
           <motion.h2
