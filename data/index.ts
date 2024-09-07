@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Student Attendance",
     des: "Student Tracking App is a mern stack application to track student attendance, and track student registration and payment using Next.js, clerk, mongodb and much more.",
-    img: "/atten.png",
+    img: "/atte.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/mongodb.png", "/node.png"],
     link: "https://student-attendance-kappa.vercel.app",
   },
