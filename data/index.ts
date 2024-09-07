@@ -112,6 +112,14 @@ export const projects = [
   },
   {
     id: 6,
+    title: "Car Showcase",
+    des: "Find, book, rent a car—quick and super easy! Streamline your car rental experience with our effortless booking process.",
+    img: "/car.png",
+    iconLists: ["/ts.png", "/re.svg", "/next.svg", "/tail.svg"],
+    link: "https://car-showcase-six-ivory.vercel.app",
+  },
+  {
+    id: 7,
     title: "Gpower",
     des: "A comprehensive transactions platform that allows users to make a transaction, top up, and pay bills, and offers curated recommendations for the transactions.",
     img: "/gpower.png",
@@ -119,7 +127,7 @@ export const projects = [
     link: "https://dashboard-nu-liart-54.vercel.app",
   },
   {
-    id: 7,
+    id: 8,
     title: "Product Card List",
     des: "An Ecommerce Product Card.",
     img: "/product.png",

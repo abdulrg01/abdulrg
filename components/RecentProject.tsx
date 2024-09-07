@@ -55,7 +55,7 @@ const RecentProjects = () => {
           <span className="text-purple">recent projects</span>
         </h1>
 
-        <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-2 mt-20">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-2 mt-5">
           {projects.map((item) => (
             <div
               className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
