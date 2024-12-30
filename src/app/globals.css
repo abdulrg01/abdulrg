@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  position: sticky;
+  top: 0;
+  animation: fade-out linear;
+  animation-timeline: scroll();
+}
+
+.main-section {
+  isolation: isolate;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+
+  100% {
+    opacity: 0;
+    scale: 0.5;
+  }
+}
