@@ -8,6 +8,9 @@ import reactImg from "../public/react.png";
 import nodeImg from "../public/node.png";
 import github from "../public/github.png";
 import vscode from "../public/vscode.png";
+import aws from "../public/aws.webp";
+import vercel from "../public/vercel.png";
+import figma from "../public/figma.png";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { MdEmail } from "react-icons/md";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
@@ -82,4 +85,49 @@ export const experience = [
   { desc: "Years of Experience", num: 3 },
   { desc: "Projects Completed", num: 6 },
   { desc: "Clients", num: 15 },
+];
+
+export const stack = [
+  {
+    title: "Next.js",
+    src: nextImg,
+
+    className: "h-10 w-14",
+  },
+  {
+    title: "AWS",
+    src: aws,
+
+    className: "h-10 w-10",
+  },
+  {
+    title: "Figma",
+    src: figma,
+
+    className: "h-10 w-8",
+  },
+  {
+    title: "Framer Motion",
+    src: figma,
+
+    className: "h-10 w-10",
+  },
+  {
+    title: "Node",
+    src: nodeImg,
+
+    className: "h-10 w-12",
+  },
+  {
+    title: "Tailwind",
+    src: TailwindImg,
+
+    className: "h-10 w-24",
+  },
+  {
+    title: "Vercel",
+    src: vercel,
+
+    className: "h-10 w-24",
+  },
 ];
