@@ -1,5 +1,5 @@
-import promptImg from "../public/landingImg.png";
-import promptImg2 from "../public/ai.png";
+import promptImg from "../public/aiImg.png";
+import promptImg2 from "../public/aiImg2.png";
 import modern from "../public/modern.png";
 import modern2 from "../public/modern2.png";
 import eclass from "../public/eclass.png";
