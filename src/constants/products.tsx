@@ -22,8 +22,8 @@ import reactImg from "../public/react.png";
 import nodeImg from "../public/node.png";
 import mongoImg from "../public/mongodb.png";
 import games from "../public/games.png";
-import games1 from "../public/games1.png";
 import games2 from "../public/games2.png";
+import games3 from "../public/games3.png";
 import enhance from "../public/enhance.png";
 import enhance2 from "../public/enhance2.png";
 
@@ -61,7 +61,7 @@ export const products = [
     description:
       "We collaborate with indie developers to bring their visions to life, providing the resources, marketing, and expertise needed to ensure their success. Our goal is to create a thriving ecosystem where creativity flourishes and innovative games reach players worldwide.",
     thumbnail: games,
-    images: [games1, games2],
+    images: [games2, games3],
     stack: ["Nextjs", "Tailwindcss", "Typescript"],
     slug: "Games",
     iconLists: [nextImg, TailwindImg, tsImg],
