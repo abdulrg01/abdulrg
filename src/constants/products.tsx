@@ -63,7 +63,7 @@ export const products = [
     thumbnail: games,
     images: [games1, games2],
     stack: ["Nextjs", "Tailwindcss", "Typescript"],
-    slug: "AI-Prompt",
+    slug: "Games",
     iconLists: [nextImg, TailwindImg, tsImg],
     content: (
       <div>
