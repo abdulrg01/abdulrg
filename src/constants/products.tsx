@@ -21,8 +21,68 @@ import jsImg from "../public/js.png";
 import reactImg from "../public/react.png";
 import nodeImg from "../public/node.png";
 import mongoImg from "../public/mongodb.png";
+import games from "../public/games.png";
+import games1 from "../public/games1.png";
+import games2 from "../public/games2.png";
+import enhance from "../public/enhance.png";
+import enhance2 from "../public/enhance2.png";
 
 export const products = [
+  {
+    href: "https://enhancesphere.vercel.app",
+    title: "Enhancesphere",
+    description:
+      "At EnhanceSphere, we believe in the power of holistic growth. Our mission is to empower individuals and businesses to reach their fullest potential by providing comprehensive strategies that address personal, financial, and professional aspects of life.",
+    thumbnail: enhance,
+    images: [enhance2, enhance],
+    stack: ["React", "Tailwindcss", "Javascript"],
+    slug: "Enhancesphere",
+    iconLists: [reactImg, TailwindImg, jsImg],
+    content: (
+      <div>
+        <p>
+          Our mission is to elevate lives by connecting personal, financial, and
+          professional success. We aim to help individuals and businesses grow
+          in harmony with their true potential, fostering long-term success and
+          happiness.
+        </p>
+        <p>
+          Our Vision To be a beacon of transformation, inspiring individuals and
+          businesses globally to strive for continuous improvement and lasting
+          success. We envision a world where personal fulfillment, financial
+          stability, and professional excellence are within reach for everyone.
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://exceptional-games.vercel.app",
+    title: "Games",
+    description:
+      "We collaborate with indie developers to bring their visions to life, providing the resources, marketing, and expertise needed to ensure their success. Our goal is to create a thriving ecosystem where creativity flourishes and innovative games reach players worldwide.",
+    thumbnail: games,
+    images: [games1, games2],
+    stack: ["Nextjs", "Tailwindcss", "Typescript"],
+    slug: "AI-Prompt",
+    iconLists: [nextImg, TailwindImg, tsImg],
+    content: (
+      <div>
+        <p>
+          Our team works hand-in-hand with developers, offering guidance and
+          support throughout the development lifecycle. Our studio has delivered
+          award-winning games, demonstrating a commitment to excellence in
+          design, storytelling, and gameplay.
+        </p>
+        <p>
+          Our in-house development studio brings years of experience to the
+          publishing process, ensuring every game we publish meets the highest
+          standards of quality and creativity. By integrating our expertise, we
+          help developers create immersive experiences that resonate with
+          players worldwide.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "https://ai-prompt-tan.vercel.app",
     title: "AI Prompt",
