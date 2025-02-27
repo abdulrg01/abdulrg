@@ -107,12 +107,6 @@ export const stack = [
     className: "h-10 w-8",
   },
   {
-    title: "Framer Motion",
-    src: figma,
-
-    className: "h-10 w-10",
-  },
-  {
     title: "Node",
     src: nodeImg,
 

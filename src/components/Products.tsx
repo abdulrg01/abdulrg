@@ -10,14 +10,8 @@ import { motion } from "framer-motion";
 
 export const Products = () => {
   return (
-    <div className="bg-white min-h-screen rounded-xl px-10 py-10">
-      <Heading
-        as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mb-4"
-      >
-        What I&apos;ve been working on
-      </Heading>
-      <div className="grid grid-cols-1 gap-10">
+    <div>
+      <div className="grid grid-cols-1  gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
@@ -54,18 +48,6 @@ export const Products = () => {
                   <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
                     {product.description}
                   </Paragraph>
-                </div>
-                <div className="flex items-center space-x-2 md:mb-1 mt-2 md:mt-0">
-                  {product.iconLists?.map((icon, i) => (
-                    <Image
-                      key={i}
-                      src={icon}
-                      alt="icon"
-                      height="20"
-                      width="20"
-                      className="bg-gray-50"
-                    />
-                  ))}
                 </div>
                 <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
                   {product.stack?.map((stack: string) => (
