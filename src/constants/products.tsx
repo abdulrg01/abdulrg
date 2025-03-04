@@ -26,8 +26,41 @@ import games2 from "../public/games2.png";
 import games3 from "../public/games3.png";
 import enhance from "../public/enhance.png";
 import enhance2 from "../public/enhance2.png";
+import airbnb from "../public/airbnb.png";
+import airbnb2 from "../public/airbnb2.png";
 
 export const products = [
+  {
+    href: "https://air-bnb-nu-six.vercel.app/",
+    title: "AIRBNB",
+    description:
+      "A modern e-commerce platform for selling and buying products online.",
+    thumbnail: airbnb,
+    images: [airbnb2, airbnb],
+    stack: ["React", "Tailwindcss", "MongoDB", "Nodejs", "Multer"],
+    slug: "airbnb",
+    iconLists: [reactImg, TailwindImg, mongoImg, nodeImg],
+    content: (
+      <div>
+        <p>
+          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
+          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
+          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
+          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
+          non cupidatat duis esse velit ut culpa et.{" "}
+        </p>
+        <p>
+          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
+          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
+          sit aute fugiat incididunt nostrud consequat proident fugiat id.
+          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
+          reprehenderit. Cillum Lorem veniam eu magna exercitation.
+          Reprehenderit adipisicing minim et officia enim et veniam Lorem
+          excepteur velit adipisicing et Lorem magna.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "https://enhancesphere.vercel.app",
     title: "Enhancesphere",
@@ -115,37 +148,6 @@ export const products = [
     ),
   },
   {
-    href: "https://modern-landing-page-drab-five.vercel.app/",
-    title: "Shoppy",
-    description:
-      "A modern e-commerce platform for selling and buying products online.",
-    thumbnail: modern,
-    images: [modern2, modern],
-    stack: ["Html", "Css", "Javascript"],
-    slug: "shoppy",
-    iconLists: [htmlImg, cssImg, jsImg],
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
     href: "https://eclass-two.vercel.app",
     title: "E-Learning Platform",
     description: "A modern e-learning platform for students and teachers.",
@@ -185,99 +187,6 @@ export const products = [
     stack: ["Nextjs", "Tailwindcss", "Typescript"],
     iconLists: [nextImg, TailwindImg, tsImg],
     slug: "E-commerce",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://student-attendance-kappa.vercel.app",
-    title: "Student Attendance",
-    description:
-      "Student Tracking App is a mern stack application to track student attendance, and track student registration and payment using Next.js, clerk, mongodb and much more.",
-    thumbnail: attendanceImg,
-    images: [attendanceImg, attendanceImg2],
-    stack: ["Nextjs", "Tailwindcss", "MongoDB", "Nodejs"],
-    iconLists: [nextImg, TailwindImg, mongoImg, nodeImg],
-    slug: "attendance",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://social-media-opal-sigma.vercel.app",
-    title: "Social Media",
-    description:
-      "A social media platform for sharing and connecting with friends and family.",
-    thumbnail: socialMediaImg,
-    images: [socialMediaImg, socialMediaImg2],
-    stack: ["Nextjs", "Tailwindcss"],
-    iconLists: [nextImg, TailwindImg],
-    slug: "social-media",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://dashboard-nu-liart-54.vercel.app",
-    title: "Gpower",
-    description:
-      "A comprehensive transactions platform that allows users to make a transaction, top up, and pay bills, and offers curated recommendations for the transactions.",
-    thumbnail: gpowerImg,
-    images: [gpowerImg, gpowerImg2],
-    stack: ["React", "Tailwindcss"],
-    iconLists: [reactImg, TailwindImg],
-    slug: "gpower",
     content: (
       <div>
         <p>
