@@ -28,8 +28,41 @@ import enhance from "../public/enhance.png";
 import enhance2 from "../public/enhance2.png";
 import airbnb from "../public/airbnb.png";
 import airbnb2 from "../public/airbnb2.png";
+import photoai from "../public/photoai.png";
+import photoai2 from "../public/photoai2.png";
 
 export const products = [
+  {
+    href: "https://webpages-one.vercel.app/",
+    title: "PhotoAI",
+    description:
+      "A modern e-commerce platform for selling and buying products online.",
+    thumbnail: airbnb,
+    images: [photoai, photoai2],
+    stack: ["React", "Tailwindcss", "Aceternity"],
+    slug: "photoai",
+    iconLists: [reactImg, TailwindImg],
+    content: (
+      <div>
+        <p>
+          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
+          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
+          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
+          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
+          non cupidatat duis esse velit ut culpa et.{" "}
+        </p>
+        <p>
+          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
+          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
+          sit aute fugiat incididunt nostrud consequat proident fugiat id.
+          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
+          reprehenderit. Cillum Lorem veniam eu magna exercitation.
+          Reprehenderit adipisicing minim et officia enim et veniam Lorem
+          excepteur velit adipisicing et Lorem magna.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "https://air-bnb-nu-six.vercel.app/",
     title: "AIRBNB",
