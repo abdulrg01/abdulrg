@@ -37,7 +37,7 @@ export const products = [
     title: "PhotoAI",
     description:
       "A modern e-commerce platform for selling and buying products online.",
-    thumbnail: airbnb,
+    thumbnail: photoai,
     images: [photoai, photoai2],
     stack: ["React", "Tailwindcss", "Aceternity"],
     slug: "photoai",
